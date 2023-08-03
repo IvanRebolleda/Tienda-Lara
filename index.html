@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda de ropa</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <!--logo-->
+
+            <h2 class="logo">T/L</h2>
+
+            <div class="contenedor-enlaces">
+
+                <!-- icono de cierre -->
+                <i class="ri-close-circle-line cerrar-menu-hamburguesa"></i>
+
+                <!-- enlaces -->
+                <a class="enlace" href="#home">Home</a>
+                <a class="enlace" href="#nosotros">Nosotros</a>
+                <a class="enlace" href="#hombres">Hombres</a>
+                <a class="enlace" href="#mujeres">Mujeres</a>
+                <a class="enlace" href="#niños">Niños</a>
+                <a class="enlace" href="#ubicacion">Ubicacion</a>
+                <a class="enlace" href="#contacto">Contacto</a>
+            </div>
+            <!-- icono de menu hamburguesa -->
+            <i class="ri-menu-3-line menu-hamburguesa"></i>
+        </nav>
+    </header>
+
+    <main>
+        <!-- seccion home -->
+
+        <section class="home" id="home">
+            <div class="contenedor">
+                <h1 class="titulo-principal">Tienda Lara</h1>
+            </div>
+        </section>
+
+        <!-- seccion nosostros -->
+
+        <section class="seccion-nosotros" id="nosotros">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Nosotros</h2>
+                <p>Somo una empresa con mas de 25 años en el mercado de modas con la mas alta calidad en todo nuestros
+                    productos.
+                    Contamos con catalogos digitales y un sistema de distribucion de ultima generacion asi tambien
+                    nuestra
+                    logistica posicionandonos a lo mas altos estandares de la moda.
+                </p>
+            </div>
+        </section>
+
+        <!-- seccion hombre -->
+
+        <section class="seccion-hombre" id="hombres">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Hombre</h2>
+                <div class="galeria">
+                    <img src="./imagenes/hombre1.jpg" alt="imagen de ropa de hombre 1">
+                    <img src="./imagenes/hombre2.jpg" alt="imagen de ropa de hombre 2">
+                    <img src="./imagenes/hombre3.jpg" alt="imagen de ropa de hombre 3">
+                    <img src="./imagenes/hombre4.jpg" alt="imagen de ropa de hombre 4">
+                    <img src="./imagenes/hombre5.jpg" alt="imagen de ropa de hombre 5">
+                    <img src="./imagenes/hombre6.jpg" alt="imagen de ropa de hombre 6">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- seccion mujer -->
+
+        <section class="seccion-mujer" id="mujer">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Mujer</h2>
+                <div class="galeria">
+                    <img src="./imagenes/mujer1.jpg" alt="imagen de ropa de mujer 1">
+                    <img src="./imagenes/mujer2.jpg" alt="imagen de ropa de mujer 2">
+                    <img src="./imagenes/mujer3.jpg" alt="imagen de ropa de mujer 3">
+                    <img src="./imagenes/mujer4.jpg" alt="imagen de ropa de mujer 4">
+                    <img src="./imagenes/mujer5.jpg" alt="imagen de ropa de mujer 5">
+                    <img src="./imagenes/mujer6.jpg" alt="imagen de ropa de mujer 6">
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion niños -->
+
+        <section class="seccion-niños" id="niños">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Niños</h2>
+                <div class="galeria">
+                    <img src="./imagenes/niño1.jpg" alt="imagen de ropa de niño 1">
+                    <img src="./imagenes/niño2.jpg" alt="imagen de ropa de niño 2">
+                    <img src="./imagenes/niño3.jpg" alt="imagen de ropa de niño 3">
+                    <img src="./imagenes/niño4.jpg" alt="imagen de ropa de niño 4">
+                    <img src="./imagenes/niño5.jpg" alt="imagen de ropa de niño 5">
+                    <img src="./imagenes/niño6.jpg" alt="imagen de ropa de niño 6">
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion ubicacion -->
+
+        <section class="seccion-ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Ubicacion</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13628.00465190553!2d-64.18331630362144!3d-31.358947127217395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432984b9707f36b%3A0xc294b08d11e87369!2sTumi%20indumentaria!5e0!3m2!1ses-419!2sar!4v1683553321711!5m2!1ses-419!2sar"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!-- seccion de contacto -->
+
+        <section class="seccion-contacto" id="contacto">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <form>
+                    <div class="contenedor-input">
+                        <label for="">Nombre</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label for="">Apellido</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label for="">Email</label>
+                        <input type="email" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label for="">Telefono</label>
+                        <input type="tel" required>
+                    </div>
+
+                    <input class="boton-enviar" type="submit" value="Enviar">
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- seccion footer -->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p>2023 | Tienda Lara | Estamos a LA MODA</p>
+            <div class="redes-sociales">
+                <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""><i class="ri-twitter-fill"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
